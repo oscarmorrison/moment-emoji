@@ -6,7 +6,9 @@
 - ensure you have moment, loaded first
 - src moment-emoji.js (or copy in file into your js)
 
-````
+on any moment time, just called `moment().emoji()`
+
+```
 <html>
 
 <body>
@@ -24,3 +26,7 @@
 </html>
 
 ```
+
+## Demo
+
+<img width="362" alt="Screen Shot 2019-07-04 at 11 42 25 pm" src="https://user-images.githubusercontent.com/1651212/60671055-96560600-9eb5-11e9-9cb4-dafaba31918b.png">
