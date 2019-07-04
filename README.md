@@ -3,7 +3,7 @@
 
 
 ## Use
-- ensure you have moment (hard requirement), loaded first
+- ensure you have [moment](https://github.com/moment/moment/) (hard requirement), loaded first
 - src moment-emoji.js (or copy in file into your js)
 
 on any moment time, just called `moment().emoji()`
