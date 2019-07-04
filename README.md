@@ -35,7 +35,7 @@ https://github.com/oscarmorrison/moment-emoji
 
 ## Usecase
 
-Why would anyone ever use this? I used it for a quick [uebersicht](https://github.com/felixhageloh/uebersicht) widget that a made.
+Why would anyone ever use this? I used it for a quick [uebersicht](https://github.com/felixhageloh/uebersicht) widget that I made.
 
 <img width="147" alt="Screen Shot 2019-07-04 at 11 49 22 pm" src="https://user-images.githubusercontent.com/1651212/60671430-6b1fe680-9eb6-11e9-8b7f-d70a18f47c92.png">
 
