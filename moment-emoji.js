@@ -1,1 +1,28 @@
-moment.prototype.emoji=function(){const t=30*Math.round(moment(this).minute()/30);return{"0100":"🕐","0130":"🕜","0200":"🕑","0230":"🕝","0300":"🕒","0330":"🕞","0400":"🕓","0430":"🕟","0500":"🕔","0530":"🕠","0600":"🕕","0630":"🕡","0700":"🕖","0730":"🕢","0800":"🕗","0830":"🕣","0900":"🕘","0930":"🕤",1000:"🕙",1030:"🕥",1100:"🕚",1130:"🕦",1200:"🕛",1230:"🕧"}[moment(this).set("minute",t).format("hhmm")]||"🕰"};
+const EMOJIS = [
+  ['🕛', '🕧'],
+  ['🕐', '🕜'],
+  ['🕑', '🕝'],
+  ['🕒', '🕞'],
+  ['🕓', '🕟'],
+  ['🕔', '🕠'],
+  ['🕕', '🕡'],
+  ['🕖', '🕢'],
+  ['🕗', '🕣'],
+  ['🕘', '🕤'],
+  ['🕙', '🕥'],
+  ['🕚', '🕦']
+]
+
+const roundTime = date => {
+  const hour = date.getHours() % 12
+  const isHalf = date.getMinutes() >= 30
+  return [hour, isHalf]
+}
+const toEmoji = date => {
+  const [hour, isHalf] = roundTime(date)
+  return EMOJIS[hour][Number(isHalf)]
+}
+
+Date.prototype.toEmoji = function () {
+  return toEmoji(this)
+}
