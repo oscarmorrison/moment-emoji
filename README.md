@@ -32,3 +32,10 @@ on any moment time, just called `moment().emoji()`
 https://github.com/oscarmorrison/moment-emoji
 
 <img width="362" alt="Screen Shot 2019-07-04 at 11 42 25 pm" src="https://user-images.githubusercontent.com/1651212/60671055-96560600-9eb5-11e9-9cb4-dafaba31918b.png">
+
+## Usecase
+
+Why would anyone ever use this? I used it for a quick [uebersicht](https://github.com/felixhageloh/uebersicht) widget that a made.
+
+<img width="147" alt="Screen Shot 2019-07-04 at 11 49 22 pm" src="https://user-images.githubusercontent.com/1651212/60671430-6b1fe680-9eb6-11e9-8b7f-d70a18f47c92.png">
+
